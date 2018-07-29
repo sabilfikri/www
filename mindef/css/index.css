@@ -1,0 +1,28 @@
+body {
+    font: normal 25px "Trebuchet MS";
+	}
+	.fileUploads {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+	}
+	.fileUploads input.upload {
+		position: absolute;
+		top: 100px;
+		right: 0;
+		margin: 0;
+		padding: 0;
+		font-size: 20px;
+		cursor: pointer;
+		opacity: 0;
+		filter: alpha(opacity=50);
+	}
+	.container {
+		text-align: center;
+		padding : 20px;
+		box-shadow: 2px 2px 2px 2px #F6F6F6;	
+		margin: auto;
+	}
+	#inp {
+		margin : auto;
+	}
